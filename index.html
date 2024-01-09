@@ -17,15 +17,38 @@
   <body>
     <div
       id="cover"
-      class="flex justify-center items-center fixed top-0 w-screen h-screen bg-csBackground-0"
+      class="flex transition-all duration-1000  overflow-hidden justify-center items-center fixed top-0 w-screen h-screen bg-csBackground-0"
     >
       <div
         class="w-[425px] h-[759px] flex shadow-2xl items-center flex-col bg-center bg-cover bg-cover-image"
       >
-        <h2 class="font-montserrat font-semibold italic mt-32 text-xl">
+        <h2 class="font-montserrat font-semibold italic mt-32 text-2xl">
           The Wedding Of
         </h2>
+        <h1 class="font-script text-[68px] mt-12">Amel & Yuda</h1>
+        <p class="font-montserrat text-[15] text-center mt-5">
+          Sabtu, 27 Januari 2024 <br /><br />
+          Dusun Rahayu A Desa Sumberejo <br />
+          Kec. Pagar Merbau <br /><br />
+          Kepada Yth, Bapak/Ibu/Saudara/i
+        </p>
+        <div
+          class="flex justify-center items-center w-[198px] h-[86px] rounded-xl border-4 mt-2 border-csBackground-0 bg-slate-200"
+        >
+          <p class="font-semibold">Your Guest Name</p>
+        </div>
+        <p class="italic text-sm mt-1">
+          Mohon maaf apabile ada kesalahan penulisan nama/gelar
+        </p>
+        <button
+          id="open"
+          class="px-10 py-[7px] italic mt-3 shadow-[0_4px_4px_0_#00000040] hover:bg-csLightBlueHover-0 rounded-full bg-csLightBlue-0"
+        >
+          Open
+        </button>
       </div>
     </div>
+
+    <script src="./src/js/main.js"></script>
   </body>
 </html>
