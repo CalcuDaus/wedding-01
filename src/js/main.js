@@ -3,9 +3,9 @@ const main = ()=>{
     const coverEl = document.querySelector('#cover');
 
     btnOpen.addEventListener('click',()=>{
-        coverEl.classList.add('h-0');
+        coverEl.classList.replace('h-screen','h-0');
     })
-
+    AOS.init();
 }
 
 document.addEventListener('DOMContentLoaded',main);
